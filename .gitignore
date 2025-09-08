@@ -1,0 +1,18 @@
+﻿# venv & caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# data & outputs
+data/
+outputs/
+cache/
+
+# models/checkpoints (HUGE; use HF hub/LFS later)
+models/
+training/models/
+*.safetensors
+*.bin
+*.pt
+*.pth
