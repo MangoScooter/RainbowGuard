@@ -1,18 +1,54 @@
-﻿# venv & caches
+﻿# -----------------
+# Python & Virtual Env
+# -----------------
 .venv/
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.Python
 
-# data & outputs
+# -----------------
+# Jupyter & Notebooks
+# -----------------
+.ipynb_checkpoints/
+*.ipynb_convert
+*.ipynb_save
+
+# -----------------
+# Logs
+# -----------------
+*.log
+*.out
+*.err
+
+# -----------------
+# Reports (ignore by default, but keep curated ones in docs/)
+*.json
+*.csv
+!docs/*.json
+!docs/*.csv
+
+# -----------------
+# Data & Artifacts
+# -----------------
 data/
 outputs/
-cache/
+checkpoints/
+runs/
+wandb/
+mlruns/
 
-# models/checkpoints (HUGE; use HF hub/LFS later)
-models/
-training/models/
-*.safetensors
-*.bin
-*.pt
-*.pth
+# -----------------
+# System Files
+# -----------------
+.DS_Store
+Thumbs.db
+
+# -----------------
+# IDE / Editor Settings
+# -----------------
+.vscode/
+.idea/
