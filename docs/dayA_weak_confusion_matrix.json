@@ -1,0 +1,34 @@
+{
+  "labels": {
+    "0": "supportive",
+    "1": "harassment",
+    "2": "misgendering",
+    "3": "outing_doxxing"
+  },
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      37,
+      0,
+      0,
+      24
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      21,
+      0,
+      0,
+      7
+    ]
+  ]
+}

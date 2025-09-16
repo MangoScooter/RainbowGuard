@@ -1,0 +1,16 @@
+{
+  "counts_total": 12,
+  "counts_by_label": {
+    "supportive": 3,
+    "harassment": 3,
+    "misgendering": 3,
+    "outing_doxxing": 3
+  },
+  "splits": {
+    "train": 8,
+    "validation": 2,
+    "test": 2
+  },
+  "used_stratify_first": true,
+  "used_stratify_second": false
+}

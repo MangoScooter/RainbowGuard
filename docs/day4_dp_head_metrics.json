@@ -1,0 +1,17 @@
+{
+  "dp": {
+    "epsilon": 7.992950888556406,
+    "delta": 0.00034916201117318437,
+    "max_grad_norm": 1.0,
+    "secure_mode": false
+  },
+  "epochs": 3,
+  "batch_size": 16,
+  "runtime_sec": 1146.1060178279877,
+  "test_metrics": {
+    "accuracy": 0.9755700325732899,
+    "precision_w": 0.9759923054881849,
+    "recall_w": 0.9755700325732899,
+    "f1_w": 0.9750974393682332
+  }
+}

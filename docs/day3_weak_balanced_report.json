@@ -1,0 +1,15 @@
+{
+  "counts_by_label": {
+    "0": 59,
+    "1": 2000,
+    "2": 33,
+    "3": 2000
+  },
+  "splits": {
+    "train": 2864,
+    "validation": 614,
+    "test": 614
+  },
+  "pool_n": 200000,
+  "target_per_class": 2000
+}

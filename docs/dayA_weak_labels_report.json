@@ -1,0 +1,14 @@
+{
+  "total_examples": 602,
+  "counts_by_label": {
+    "0": 6,
+    "1": 404,
+    "2": 5,
+    "3": 187
+  },
+  "splits": {
+    "train": 421,
+    "validation": 90,
+    "test": 91
+  }
+}

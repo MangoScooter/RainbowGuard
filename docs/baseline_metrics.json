@@ -1,0 +1,23 @@
+{
+  "test_metrics": {
+    "eval_loss": 0.1939648985862732,
+    "eval_accuracy": 0.935,
+    "eval_f1": 0.4036697247706422,
+    "eval_roc_auc": 0.8822146739130434,
+    "eval_runtime": 92.2141,
+    "eval_samples_per_second": 10.844,
+    "eval_steps_per_second": 0.683,
+    "epoch": 1.0
+  },
+  "threshold": 0.5,
+  "confusion_matrix": [
+    [
+      913,
+      7
+    ],
+    [
+      58,
+      22
+    ]
+  ]
+}

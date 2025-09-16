@@ -1,0 +1,10 @@
+                precision    recall  f1-score   support
+
+    supportive      1.000     0.444     0.615         9
+    harassment      0.964     0.993     0.979       300
+  misgendering      1.000     1.000     1.000         5
+outing_doxxing      0.976     0.963     0.970       300
+
+      accuracy                          0.971       614
+     macro avg      0.985     0.850     0.891       614
+  weighted avg      0.971     0.971     0.969       614
